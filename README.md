@@ -14,8 +14,7 @@ devtools::install_github("Grisoudre/RecodPCS")
 
 **Ouverture de l'application :**
 ```{r}
-library(RecodPCS)
-PCS()
+RecodPCS::PCS()
 ```
 Puis, sur la nouvelle fenêtre, cliquer sur "Open in browser".
 
