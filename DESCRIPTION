@@ -1,16 +1,14 @@
 Package: RecodPCS
 Type: Package
 Title: Recodage de profession selon la nomenclature PCS de l'Insee
+Description: Lancement d'une application de recodage
 Version: 0.3
 Imports: shiny,
          questionr,
          shinythemes,
          shinyjs,
-	 DT,
+         DT,
          tidyverse
 Author: Grisoudre
 Maintainer: Grisoudre <cecile.rodrigues@cnrs.fr>
-Description: Lancement d'une application de recodage
-License: What license is it under?
-Encoding: UTF-8
 LazyData: true
