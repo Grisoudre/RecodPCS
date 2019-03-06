@@ -368,23 +368,23 @@ observe({
 })
 observe({
   Lib4 <- input$LibN4
-  updateTextInput(session, "N4", value =  N4$N4[N4$LibN4==Lib4])
+  updateTextInput(session, "N4", value = unique(CSP4niv$N4[CSP4niv$LibN4==Lib4]))
   updateTextInput(session, "LibN3", value =  CSP4niv$LibN3[CSP4niv$LibN4==Lib4])
 })
 
 observe({
   Lib3 <- input$LibN3
-  updateTextInput(session, "N3", value =  N3$N3[N3$LibN3==Lib3])
+  updateTextInput(session, "N3", value =  unique(CSP4niv$N3[CSP4niv$LibN3==Lib3]))
   updateTextInput(session, "LibN2", value =  CSP4niv$LibN2[CSP4niv$LibN3==Lib3])
 })
 observe({
   Lib2 <- input$LibN2
-  updateTextInput(session, "N2", value =  N2$N2[N2$LibN2==Lib2])
+  updateTextInput(session, "N2", value =  unique(CSP4niv$N2[CSP4niv$LibN2==Lib2]))
   updateTextInput(session, "LibN1", value =  CSP4niv$LibN1[CSP4niv$LibN2==Lib2])
 }) 
 observe({
   Lib1 <- input$LibN1
-  updateTextInput(session, "N1", value =  N1$N1[N1$LibN1==Lib1])
+  updateTextInput(session, "N1", value =  unique(CSP4niv$N1[CSP4niv$LibN1==Lib1]))
 })
 
 
